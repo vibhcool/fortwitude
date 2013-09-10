@@ -35,7 +35,7 @@ the pool for producing __cookies__.
 SAMPLE USAGE
 ------------
 
-```shell
+```bash
 $ fortitude 
 
 
@@ -79,12 +79,12 @@ the -l option.
 
 OTHER OPTIONS
 -------------
-You can pass "home" to the -t option to use your home timeline
+You can pass __home__ to the -t option to use your home timeline
 instead of the public timeline. 
 
 Complete command-line options are below.
 
-```shell
+```bash
 anand@home-laptop$ fortitude -h
 usage: fortitude [-h] [-t TIMELINE] [-l] [-s SAMPLE] [-v]
 
