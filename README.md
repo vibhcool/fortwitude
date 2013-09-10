@@ -8,10 +8,22 @@ the global twitter stream by sampling them for fortune
 The program simulates the Unix utility __fortune__ with
 source as the public or home timeline of the user.
 
+REQUIREMENTS
+------------
+The program needs the PTT (python-twitter-tools) library
+which is automatically installed by setup.py.
+
+If it fails to install because of some error, you can get it from 
+https://pypi.python.org/packages/source/t/twitter/twitter-1.10.0.tar.gz .
+
 INSTALL
 -------
 
+```
+bash
 $ sudo python setup.py install
+
+```
 
 The program installs the same script in two names
  - ___fortwitude___ and ___fortitude___ .
