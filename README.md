@@ -61,6 +61,7 @@ instead of the public timeline.
 
 Complete command-line options are below.
 
+```shell
 anand@home-laptop$ fortitude -h
 usage: fortitude [-h] [-t TIMELINE] [-l] [-s SAMPLE] [-v]
 
@@ -73,6 +74,8 @@ optional arguments:
   -s SAMPLE    Size of twitter messages used to sample (default 50)
   -v           Be verbose
  
+```
+
 BUGS, SUGGESTIONS
 -----------------
 @pythonhacker 
