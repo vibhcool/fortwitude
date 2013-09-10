@@ -14,7 +14,7 @@ INSTALL
 $ sudo python setup.py install
 
 The program installs the same script in two names
- - fortwitude and fortitude.
+ - ___fortwitude___ and ___fortitude___ .
 
 RUNNING
 -------
@@ -25,7 +25,9 @@ is done entirely on the command line.
 
 It also builds an initial pool of *reasonable* tweets which
 are saved to a file in the home folder. The initial sample
-size is 50. The program has an inbuilt detector for English
+size is 50. 
+
+The program has an inbuilt detector for English
 language tweets and a basic profanity filter to filter out
 profane tweets. The curated content is saved and used as 
 the pool for producing *cookies*.
@@ -48,8 +50,8 @@ writing cache.
 No loyalty these days , one offer and your thoughts change - Suffy_M
 ```
 
-Once the pool is built just tying '''fortitude''' or '''fortwitude'''
-on the console produces a random ''fortune'' cookie.
+Once the pool is built just tying ___fortitude___ or ___fortwitude___
+on the console produces a random __fortune cookie__.
 
 ```bash
 
@@ -65,6 +67,9 @@ $ fortitude
 Broke my phone the week before iOS 7 :( - Heart_Smart69
 
 ```
+
+__NOTE__: It takes a while to build the initial pool as a lot
+of content needs to be filtered. You need to be patient :) 
 
 REFRESHING CONTENT
 ------------------
