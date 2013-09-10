@@ -48,6 +48,24 @@ writing cache.
 No loyalty these days , one offer and your thoughts change - Suffy_M
 ```
 
+Once the pool is built just tying '''fortitude''' or '''fortwitude'''
+on the console produces a random ''fortune'' cookie.
+
+```bash
+
+$ fortitude
+
+There is nothing so fatal to character as half-finished tasks. - ParentClub80998
+
+$ fortitude
+
+Realized it's the 10th.. marking one month from today I will have lived 24 years. What a depressing birthday! Almost halfway to 50.. - TooCoolJess
+
+$ fortitude 
+Broke my phone the week before iOS 7 :( - Heart_Smart69
+
+```
+
 REFRESHING CONTENT
 ------------------
 The local cache has a TTL of 24 hours after which it is automatically
