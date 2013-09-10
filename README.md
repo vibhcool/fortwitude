@@ -33,7 +33,9 @@ the pool for producing *cookies*.
 SAMPLE USAGE
 ------------
 
+```shell
 $ fortitude 
+
 
 Fortwitude is starting up...
 Using public timeline as source timeline...
@@ -44,6 +46,7 @@ querying twitter and building content from timeline...
 built content.
 writing cache.
 No loyalty these days , one offer and your thoughts change - Suffy_M
+```
 
 REFRESHING CONTENT
 ------------------
