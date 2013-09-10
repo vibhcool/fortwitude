@@ -5,7 +5,7 @@ Fortwitude is a program which tries to make sense out of
 the global twitter stream by sampling them for fortune
 "cookies".
 
-The program simulates the Unix utility "fortune" with
+The program simulates the Unix utility __fortune__ with
 source as the public or home timeline of the user.
 
 INSTALL
@@ -23,14 +23,14 @@ The first time you run, fortwitude requests for OAuth
 authentication for your twitter account. The authentication
 is done entirely on the command line.
 
-It also builds an initial pool of *reasonable* tweets which
+It also builds an initial pool of __reasonable__ tweets which
 are saved to a file in the home folder. The initial sample
 size is 50. 
 
 The program has an inbuilt detector for English
 language tweets and a basic profanity filter to filter out
 profane tweets. The curated content is saved and used as 
-the pool for producing *cookies*.
+the pool for producing __cookies__.
 
 SAMPLE USAGE
 ------------
