@@ -19,8 +19,7 @@ https://pypi.python.org/packages/source/t/twitter/twitter-1.10.0.tar.gz .
 INSTALL
 -------
 
-```
-bash
+```bash
 $ sudo python setup.py install
 
 ```
