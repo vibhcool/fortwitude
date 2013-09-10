@@ -173,7 +173,7 @@ class Fortwitude(object):
             except KeyError:
                 pass
 
-        self.inform("built content pool of size",self.sample)
+        self.inform("built content pool of size",len(tweets))
         self.message('built stream.')
         return tweets
 
@@ -224,10 +224,11 @@ class Fortwitude(object):
         self.inform("Sampling",self.sample,"tweets for random pool....")
         
         # If live, turn on verbose mode
-        source = (not self.live) and self.get_cache()
+        source = self.get_cache()
+        
         self.inform('Rebuilding content pool from twitter stream....')
             
-        if not source:
+        if self.live or (not source):
             self.inform("querying twitter and building content from timeline...")
             pm = FakeProgressMeter()
             pm.start()
