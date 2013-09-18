@@ -17,4 +17,5 @@ setup(name = "fortwitude",
       packages = ['fortwitude'],
       scripts = ['scripts/fortwitude','scripts/fortitude'],
       install_requires = ['twitter'],
-      data_files=[(os.path.expanduser('~/.fortwitude_en'), ['data/1lncn10.txt'])])
+      data_files=[(os.path.expanduser('~/.fortwitude_en'), ['data/1lncn10.txt',
+                                                            'data/wwwlang'])])
